@@ -31,6 +31,7 @@ a {
   text-decoration: none;
 }
 
+/* Header */
 .header-1 {
   position: absolute;
   left: 0;
@@ -132,7 +133,9 @@ a {
 .navigator a.search {
   margin-top: 16px;
 }
+/* End header */
 
+/* Slider */
 .slideshow-container {
   max-width: 100%;
   position: relative;
@@ -347,7 +350,9 @@ a {
     transform: translate3d(0, 0, 0);
   }
 }
+/* End slider */
 
+/* Service */
 .service-section {
   color: #333;
   padding: 150px;
@@ -466,4 +471,132 @@ a {
 
 a.box.text-center {
   text-decoration: none;
+}
+/* End service */
+/* Feature */
+.tabs {
+  padding-top: 65px;
+  padding-bottom: 43px;
+  background-color: #046672;
+}
+
+.tabs h2 {
+  text-transform: uppercase;
+  font-family: 400;
+  font-family: 'Roboto Condensed', sans-serif;
+  letter-spacing: 1px;
+  margin-bottom: 20px;
+}
+
+.p-large {
+  color: #f1f1f8;
+  font: 400 1rem/1.5rem;
+  font-family: 'Oswald', sans-serif;
+}
+
+.p-heading {
+  margin-bottom: 38px;
+  text-align: center;
+}
+
+.tabs .nav-tabs {
+  margin-right: auto;
+  margin-bottom: 25px;
+  margin-left: auto;
+  justify-content: center;
+  border-bottom: none;
+}
+
+.tabs .nav-link {
+  margin-bottom: 10px;
+  padding: 5px 14px 3px 2px;
+  border: none;
+  border-bottom: 2px solid #f1f1f8;
+  border-radius: 0;
+  color: #f1f1f8;
+  font: 700 10px/18px;
+  font-family: 'Oswald', sans-serif;
+  text-decoration: none;
+  transition: all 0.2s ease;
+}
+
+.tabs .nav-link.active,
+.tabs .nav-link:hover {
+  border-bottom: 2px solid #00c9db;
+  background-color: transparent;
+  color: #00c9d4;
+}
+
+.tabs .nav-link .fa {
+  margin-right: 4px;
+  font-size: 10px;
+}
+
+.tabs .card {
+  border: none;
+  background: transparent;
+}
+
+.tabs .card-body {
+  margin-bottom: 5px;
+}
+
+.tabs .card-body p {
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.tabs .card .card-icon {
+  display: inline-block;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  background-color: #00c9db;
+  text-align: center;
+  vertical-align: top;
+}
+
+.tabs .card .card-icon .fa {
+  color: white;
+  font-size: 22px;
+  line-height: 45px;
+}
+
+.tabs .card.left-pane .text-wrapper {
+  display: inline-block;
+  width: 75%;
+  text-align: right;
+}
+
+.tabs .card.left-pane .card-icon {
+  float: none;
+  margin-right: 0;
+  margin-left: 10px;
+}
+
+.tabs img {
+  display: block;
+  margin: 3px auto 30rem;
+}
+
+.tabs .card.right-pane .text-wrapper {
+  display: inline-block;
+  width: 75%;
+  margin-left: 10px;
+}
+
+.tabs .card .card-icon {
+  width: 45px;
+  height: 45px;
+}
+
+.tabs .icon-cards__area .card {
+  display: inline-block;
+  width: 44%;
+  margin-right: 25px;
+  vertical-align: top;
+}
+
+.tabs .card.left-pane .text-wrapper,
+.tabs .card.right-pane .text-wrapper {
+  width: 68%;
 }
