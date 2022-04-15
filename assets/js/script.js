@@ -26,3 +26,18 @@ function showSlides(n) {
   }
   slides[slideIndex-1].style.display = "block";
 }
+
+(function ($) {
+  "use strict";
+  $('.anim').magnificPopup({
+    typeo: 'inline',
+    fixedContentPos: false,
+    fixedBgPos: true,
+    overflowY: 'auto',
+    closeBtnInside: true,
+    perloader: false,
+    midClick: true,
+    removeDelay: 500,
+    mainClass: 'my-mfp-slide-bottom'
+  });
+})(jQuery);
