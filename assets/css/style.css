@@ -765,5 +765,34 @@ a.box.text-center {
 .my-mfp-slide-bottom.mfp-ready .zoom {
   opacity: 1;
   transform: translateY(0) perspective(375px) rotateX(0deg);
+}
 
+.parallax-setting {
+  background-image: url(../img/parallax4.jpg);
+  padding: 150px 150px;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.parallax-setting h2 {
+  font-size: 45px;
+  font-weight: 400;
+  padding: 40px 0;
+}
+
+
+.parallax-setting a {
+  background: #00bcd4;
+  padding: 14px 35px;
+  border-radius: 50px;
+  transition: all 0.3s ease-in;
+  border: 2px solid transparent;
+}
+
+.parallax-setting a:hover {
+  background: transparent;
+  text-decoration: none;
+  border: 2px solid #00bcd4;
 }
