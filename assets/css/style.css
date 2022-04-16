@@ -766,7 +766,8 @@ a.box.text-center {
   opacity: 1;
   transform: translateY(0) perspective(375px) rotateX(0deg);
 }
-
+/* End Details */
+/* Parallax */
 .parallax-setting {
   background-image: url(../img/parallax4.jpg);
   padding: 150px 150px;
@@ -780,6 +781,7 @@ a.box.text-center {
   font-size: 45px;
   font-weight: 400;
   padding: 40px 0;
+  text-transform: uppercase;
 }
 
 
@@ -795,4 +797,61 @@ a.box.text-center {
   background: transparent;
   text-decoration: none;
   border: 2px solid #00bcd4;
+}
+/* End Parallax */
+/* Fliping */
+.flipster-carousel {
+  display: none;
+  color: #333;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.flip-item {
+  width: 420px;
+}
+
+.flip-item .item-inner {
+  padding: 20px;
+  border: 1px solid  #efefef;
+  background: white;
+}
+
+.flip-item .source-profile {
+  width: 80px;
+  height: 80px;
+}
+
+.flip-item .source-info {
+  font-size: 17px;
+  margin-left: 10px;
+}
+
+.flipster--coverflow .flipster__item__content {
+  -webkit-box-reflect: unset;
+}
+
+.flipster__button {
+  width: 40px;
+  height: 40px;
+  margin-top: -30px;
+  background: #212b35;
+  border-radius: 50%;
+}
+
+.flipster__button svg {
+  width: 15px;
+  stroke: white;
+}
+
+.flipster__button svg:hover {
+  stroke: white;
+}
+
+.pt-5 a {
+  padding: 12px 30px;
+  border-radius: 50px;
+  background: transparent;
+  border: 2px solid #00c9db;
+  color: #00c9db;
+  font-family: 'Roboto Condensed', sans-serif;
 }
