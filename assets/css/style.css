@@ -855,3 +855,47 @@ a.box.text-center {
   color: #00c9db;
   font-family: 'Roboto Condensed', sans-serif;
 }
+/* End Fliping */
+/* Footer */
+.footer {
+  font-size: 10px;
+  font-family: 'Roboto Condensed', sans-serif;
+  color: #333;
+}
+
+.theme-bg-primary {
+  background-color: #eff2f5;
+}
+
+.col-heading {
+  text-transform: uppercase;
+  font-family: 'Oswald', sans-serif;
+  margin-bottom: 20px;
+}
+
+.mb-2 {
+  margin-bottom: 10px !important;
+  font-size: 17px;
+}
+
+.footer ul li a {
+  font-size: 17px;
+  color: #333;
+}
+
+.download-area h3 {
+  font-family: 'Oswald', sans-serif;
+}
+
+.section-info {
+  font-size: 17px;
+}
+
+.footer__text {
+  font-size: 17px;
+  margin-top: 15px;
+}
+
+.footer__mail {
+  font-size: 17px;
+}
