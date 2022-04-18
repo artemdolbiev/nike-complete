@@ -131,7 +131,7 @@ a {
 }
 
 .navigator a.search {
-  margin-top: 16px;
+  margin-top: 7px;
 }
 /* End header */
 
@@ -919,4 +919,268 @@ a.box.text-center {
   text-decoration: none;
   padding-bottom: 6px;
   border-radius: 4px;
+}
+
+@media (min-width: 991px) and (max-width:1340px) {
+  .mainmenu ul li {
+    padding: 25px 6px 18px !important;
+  }
+
+  .row.custom__column .col-lg-3.col-sm-4.col-md-3 {
+    max-width: 33% !important;
+    flex: 0 0 33% !important;
+    width: 33% !important;
+  }
+}
+@media (min-width: 768px) and (max-width:991px) {
+  .col-lg-2.col-sm-2.col-md-2.right-search {
+    position: absolute;
+    right: 50%;
+    top: 12px;
+    margin-left: 0px;
+    z-index: 99;
+  }
+
+  button.navbar-toggler {
+    color: white;
+  }
+
+  .col-lg-8.col-sm-7.col-md-7.top {
+    position: absolute;
+    top: 35px;
+    right: 50px;
+    z-index: 9;
+  }
+
+  .col-lg-8.col-sm-7.col-md-7.top .mainmenu {
+    position: relative;
+    text-align: right !important;
+    display: unset;
+  }
+
+  .col-lg-8.col-sm-7.col-md-7.top button.navbar-toggler {
+    display: block;
+    float: right;
+  }
+
+  .mainmenu ul {
+    margin: 0;
+    padding: 0;
+    background: #020202;
+    top: 20px;
+    position: relative;
+    width: 100%;
+    text-align: center;
+  }
+
+  div#cool {
+    position: absolute;
+    left: 100px;
+    top: 64px;
+  }
+
+  .row.custom__column .col-lg-3.col-sm-4.col-md-3 {
+    max-width: 50%;
+    flex: 0 0 50%;
+    width: 33%;
+  }
+
+  .myslides {
+    padding-top: 30px;
+  }
+
+  .myslides h2 {
+    width: fit-content;
+    font-size: 70px;
+    letter-spacing: 5px;
+    position: relative;
+    top: 0px;
+    left: 20px;
+  }
+
+  .myslides h2 span {
+    font-size: 28px;
+    letter-spacing: 4px;
+  }
+
+  .myslides .p_img {
+    height: 276px !important;
+    left: 20px;
+  }
+
+  .myslides .p_detail {
+    width: 100%;
+    position: relative;
+    top: -80px;
+    right: 0;
+    padding: 30px 50px 30px;
+  }
+
+  .myslides .p_detail h3 {
+    font-size: 30px;
+    margin-top: 70px;
+  }
+
+  .myslides .p_detail h3 i {
+    font-size: 17px;
+  }
+
+  .myslides .p_detail h4 {
+    font-size: 17px;
+  }
+
+  .myslides .p_detail a {
+    padding: 2px 6px;
+  }
+}
+
+@media (max-width:767px) {
+  .myslides {
+    padding-top: 30px;
+  }
+
+  .myslides h2 {
+    width: fit-content;
+    font-size: 50px;
+    letter-spacing: 5px;
+    position: relative;
+    top: 0px;
+    left: 20px;
+  }
+
+  .myslides h2 span {
+    font-size: 18px;
+    letter-spacing: 4px;
+  }
+
+  .myslides .p_img {
+    height: 176px !important;
+    left: 20px;
+  }
+
+  .myslides .p_detail {
+    width: 100%;
+    position: relative;
+    top: 0;
+    right: 0;
+    padding: 30px 50px 30px;
+  }
+
+  .myslides .p_detail h3 {
+    font-size: 30px;
+    margin-top: 70px;
+  }
+
+  .myslides .p_detail h3 i {
+    font-size: 17px;
+  }
+
+  .myslides .p_detail h4 {
+    font-size: 17px;
+  }
+
+  .myslides .p_detail a {
+    padding: 2px 6px;
+  }
+}
+
+@media (min-width: 300px) and (max-width:767px) {
+  .col-lg-2.col-sm-2.col-md-2.right-search {
+    position: absolute;
+    right: 50%;
+    top: 12px;
+    margin-left: -34px;
+    z-index: 99;
+  }
+
+  button.navbar-toggler {
+    color: white;
+  }
+
+  .col-lg-8.col-sm-7.col-md-7.top {
+    position: absolute;
+    top: 35px;
+    right: 50px;
+    z-index: 9;
+  }
+
+  .col-lg-8.col-sm-7.col-md-7.top .mainmenu {
+    position: relative;
+    text-align: right !important;
+    display: unset;
+  }
+
+  .col-lg-8.col-sm-7.col-md-7.top button.navbar-toggler {
+    display: block;
+    float: right;
+  }
+
+  .mainmenu ul {
+    margin: 0;
+    padding: 0;
+    background: #020202;
+    top: 20px;
+    position: relative;
+    width: 100%;
+    text-align: center;
+  }
+
+  div#cool {
+    position: absolute;
+    left: 100px;
+    top: 64px;
+  }
+
+  .row.custom__column .col-lg-3.col-sm-4.col-md-3 {
+    max-width: 100%;
+    flex: 0 0 100%;
+    width: 100% !important;
+  }
+
+  .service-section {
+    padding: 45px;
+  }
+
+  .sec__title {
+    font-size: 30px;
+  }
+
+  .parallax-setting {
+    padding: 100px 60px;
+  }
+
+  .parallax-setting h2 {
+    font-size: 30px;
+  }
+  
+}
+
+
+@media (min-width: 300px) and (max-width:460px) {
+  .flip-item {
+    width: 310px;
+  }
+  .mb-2 {
+    font-size: 14px;
+  }
+  .mb-3 {
+    font-size: 12px;
+    margin-bottom: 5px !important;
+  }
+  .flip-item .source-info {
+    font-size: 14px;
+  }
+
+  .pt-5 {
+    padding-top: 20px !important;
+  }
+
+  .flipster__button {
+    width: 30px;
+    height: 30px;
+  }
+
+  .flipster__button svg {
+    width: 10px;
+  }
 }
