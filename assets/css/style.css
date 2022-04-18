@@ -223,7 +223,6 @@ a {
 .myslides .p_detail h3 {
   font-size: 50px;
   font-weight: 600;
-  font-size: italic;
   margin-top: 170px;
   animation-duration: 1.2s;
   animation-fill-mode: both;
@@ -482,7 +481,7 @@ a.box.text-center {
 
 .tabs h2 {
   text-transform: uppercase;
-  font-family: 400;
+  font-weight: 400;
   font-family: 'Roboto Condensed', sans-serif;
   letter-spacing: 1px;
   margin-bottom: 20px;
@@ -657,7 +656,6 @@ a.box.text-center {
   color: white;
   font: 700 7.5px/0;
   font-family: 'Roboto Condensed', sans-serif;
-  text-align: none;
   transition: all 0.2s;
 }
 
@@ -931,6 +929,54 @@ a.box.text-center {
     flex: 0 0 33% !important;
     width: 33% !important;
   }
+
+  .myslides {
+    padding-top: 30px;
+  }
+
+  .myslides h2 {
+    width: fit-content;
+    font-size: 110px;
+    letter-spacing: 6px;
+    position: relative;
+    top: 0px;
+    left: 20px;
+  }
+
+  .myslides h2 span {
+    font-size: 48px;
+    letter-spacing: 4px;
+  }
+
+  .myslides .p_img {
+    height: 400px !important;
+    left: 20px;
+  }
+
+  .myslides .p_detail {
+    width: 350px;
+    position: absolute;
+    top: 200px;
+    right: 110px;
+    z-index: 30;
+  }
+
+  .myslides .p_detail h3 {
+    font-size: 40px;
+    margin-top: 70px;
+  }
+
+  .myslides .p_detail h3 i {
+    font-size: 25px;
+  }
+
+  .myslides .p_detail h4 {
+    font-size: 25px;
+  }
+
+  .myslides .p_detail a {
+    padding: 6px 10px;
+  }
 }
 @media (min-width: 768px) and (max-width:991px) {
   .col-lg-2.col-sm-2.col-md-2.right-search {
@@ -1151,6 +1197,10 @@ a.box.text-center {
 
   .parallax-setting h2 {
     font-size: 30px;
+  }
+
+  .tabs .icon-cards__area .card  {
+    width: 80%;
   }
   
 }
